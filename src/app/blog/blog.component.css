@@ -1,0 +1,10 @@
+#card {
+	background: rgb(34,178,193);
+	opacity: .8;
+	border: 5px solid white;
+	font-family: 'Satisfy', cursive;
+}
+
+p {
+	font-size: 15pt;
+}

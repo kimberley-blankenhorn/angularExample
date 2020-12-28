@@ -1,0 +1,14 @@
+<div style="background-image: url(/assets/sand.jpg); background-size: cover;" class="p-5">
+  <div class="container" style="background-color: rgb(34,178,193); opacity: .7">
+    <h2 class="text-center m-5 text-white p-3">Product Details</h2>
+    <div *ngIf="y" class="text-center text-white">
+      <img id="locationimg" class="img-fluid pb-3" src="{{y.image}}" style="height: 40vw; width:40vw;">
+      <h2>{{ y.name }}</h2>
+      <h3>{{ y.price }}</h3>
+      <p>{{ y.description }}</p>
+      <p>{{ y.duration }}</p>
+      <p>{{ y.start }}</p>
+      <p>All prices include airfare</p>
+      <button (click)="addToCart(y)" class="btn btn-success mb-5">Buy</button>
+    </div>
+  </div>

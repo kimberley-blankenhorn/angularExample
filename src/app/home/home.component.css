@@ -1,0 +1,16 @@
+
+
+#body{
+	background-image: url(/assets/watercolour.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 70vw;
+	font-family: 'Satisfy', cursive;
+}
+
+.overlay {
+	background: white;
+	opacity: .5;
+	height: 30vw;
+}	
